@@ -1,0 +1,7 @@
+
+// to be put on monthly or daily or weekly. 
+
+
+{if close > open then} value2 =(close - open); //else value2 = (open - close); 
+Value1 = (Value2 / open) ; //if radar screen, select to show as %, it does the 100x for you.
+plot1(value1, !("% chg"));
